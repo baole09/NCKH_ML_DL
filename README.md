@@ -10,8 +10,8 @@ Student: **Le Nguyen Anh Bao**\
 Student ID: **3124411026**
 
 ---
-## **Week 1**\
-### **Day 1:**\
+## **Week 1**
+### **Day 1:**
 1) Pytorch
 - Setting up the environment for Anaconda.
 - Lanching JupyterLab and Visual Studio.
