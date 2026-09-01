@@ -16,3 +16,4 @@ Student ID: **3124411026**
 - Lanching JupyterLab and Visual Studio.
 - Check library version numbers.(scipy, numpy, matplotlib, pandas, statsmodels, sklearn).
 - Install Deep Learning Libraries and check deep learning version numbers(pytorch and torchvision)
+### **Day 2:** Pytorch, Keras
