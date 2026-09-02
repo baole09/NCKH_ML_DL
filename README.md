@@ -12,10 +12,10 @@ Student ID: **3124411026**
 ---
 ## **Week 1**
 ### **Day 1:** Pytorch, Keras
-- Setting up the environment for Anaconda.
-- Lanching JupyterLab and Visual Studio.
-- Check library version numbers.(scipy, numpy, matplotlib, pandas, statsmodels, sklearn).
-- Install Deep Learning Libraries and check deep learning version numbers(pytorch and torchvision)
+- Thiết lập môi trường cho Anaconda.
+- Khởi chạy JupyterLab và Visual Studio.
+- Kiểm tra phiên bản của các thư viện (scipy, numpy, matplotlib, pandas, statsmodels, sklearn).
+- Cài đặt các thư viện Deep Learning và kiểm tra phiên bản của các thư viện deep learning (pytorch và torchvision).
 ### **Day 2:** Pytorch, Keras
 ~ Chapter 1:
 - Bối cảnh lịch sử các thư viện deep learning: từ C++ (libann, OpenNN) → Python (Caffe, Chainer, Theano) → 2 thư viện lớn hiện nay là PyTorch và TensorFlow/Keras.
