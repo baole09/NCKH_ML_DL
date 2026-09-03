@@ -34,4 +34,4 @@ Student ID: **3124411026**
 - Tensor API của PyTorch bám rất sát NumPy: tạo tensor (hằng số, `linspace`, `rand`/`randn`, `randint`, `zeros`/`full`/`ones`, `eye`), kiểm tra tensor (`shape`, `ndim`, `len`, `dtype`).
 - Thao tác tensor: slicing, thêm chiều (`None`/`unsqueeze`), boolean indexing, `reshape`/`ravel`, transpose, ghép/tách (`vstack`/`concatenate`, `vsplit`/`split`).
 - Các hàm trên tensor: hàm toán học theo phần tử (`exp`, `log`, `sqrt`,...), toán tử trực tiếp (`+`, `/`, `**`), `matmul`/`dot`, thống kê (`mean`, `std`, `cumsum`), `linalg.svd`, padding cho CNN (`nn.functional.pad`).
- ![](./images/drawing_surface3D.png=100x200)
+ ![](./images/drawing_surface3D.png)
