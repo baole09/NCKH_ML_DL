@@ -23,7 +23,7 @@ Student ID: **3124411026**
 - Điểm khác biệt cốt lõi giữa PyTorch và Keras: Keras dùng model.fit(), PyTorch yêu cầu tự viết training loop.
 - Cùng một kiến trúc (LeNet-5/MLP) có thể biểu diễn tương đương trên 3 framework khác nhau, chỉ khác cú pháp.
 - Đã tổng hợp và chạy thử 6 đoạn code minh hoạ (Chainer MLP, PyTorch subclass, PyTorch Sequential, Keras Sequential, Keras fit, PyTorch training loop thủ công) cho cùng bài toán phân loại MNIST.
-
+<img src="./images/LeNet_architecture.png" width="400" alt="Kiến trúc LeNet-5"/>
 ~ Chapter 2:
 - PyTorch được xây trên 2 năng lực cốt lõi: tensor computation (giống NumPy, chạy được trên GPU) và automatic differentiation (autograd)
 - Cài đặt qua `pip install torch` hoặc `conda install pytorch`; chạy GPU cần cài CUDA riêng.
@@ -35,3 +35,10 @@ Student ID: **3124411026**
 - Thao tác tensor: slicing, thêm chiều (`None`/`unsqueeze`), boolean indexing, `reshape`/`ravel`, transpose, ghép/tách (`vstack`/`concatenate`, `vsplit`/`split`).
 - Các hàm trên tensor: hàm toán học theo phần tử (`exp`, `log`, `sqrt`,...), toán tử trực tiếp (`+`, `/`, `**`), `matmul`/`dot`, thống kê (`mean`, `std`, `cumsum`), `linalg.svd`, padding cho CNN (`nn.functional.pad`).
 <img src="./images/drawing_surface3D.png" width="400" alt="Surface plot 3D từ tensor bằng matplotlib"/>
+
+~ Chapter 4:
+- Autograd: tensor cần `requires_grad=True` (và kiểu float) mới theo dõi được đạo hàm; gọi `.backward()` trên một scalar sẽ lan truyền ngược, kết quả nằm ở `.grad`.
+- Dùng autograd để hồi quy đa thức: coi các hệ số cần tìm là một tensor `requires_grad=True`, tối ưu bằng gradient descent (`optimizer.zero_grad() → backward() → step()`) để giảm dần MSE, không cần tự đạo hàm công thức.
+- Autograd tổng quát hơn deep learning: cùng cơ chế gradient descent này dùng để giải một hệ phương trình 4 ẩn (bài toán đố), không giới hạn ở huấn luyện neural network.
+- Nhận ra: vòng lặp `zero_grad() → backward() → step()`.
+<img src="./images/autograd.png" width="400" alt="Pytorch AutoGrad"/>
