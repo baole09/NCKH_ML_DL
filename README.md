@@ -31,7 +31,7 @@ Student ID: **3124411026**
 - Ứng dụng thực tế: Computer Vision (ResNet, YOLO, Faster R-CNN), NLP (BERT, Transformer), Reinforcement Learning (DQN, PPO, A3C).
 - So với TensorFlow/Keras: khác biệt nằm ở mức độ kiểm soát training loop — PyTorch viết tường minh (linh hoạt, phù hợp nghiên cứu), Keras ẩn sau `model.fit()` (nhanh, phù hợp ứng dụng chuẩn).
 
-### **Day 2:** Pytorch, Keras
+### **Day 3:** Pytorch, Keras
 
 ~ Chapter 3:
 - Tensor API của PyTorch bám rất sát NumPy: tạo tensor (hằng số, `linspace`, `rand`/`randn`, `randint`, `zeros`/`full`/`ones`, `eye`), kiểm tra tensor (`shape`, `ndim`, `len`, `dtype`).
