@@ -44,4 +44,4 @@ Student ID: **3124411026**
 - Dùng autograd để hồi quy đa thức: coi các hệ số cần tìm là một tensor `requires_grad=True`, tối ưu bằng gradient descent (`optimizer.zero_grad() → backward() → step()`) để giảm dần MSE, không cần tự đạo hàm công thức.
 - Autograd tổng quát hơn deep learning: cùng cơ chế gradient descent này dùng để giải một hệ phương trình 4 ẩn (bài toán đố), không giới hạn ở huấn luyện neural network.
 - Nhận ra: vòng lặp `zero_grad() → backward() → step()`.
-<img src="./images/autograd.png" width="400" alt="Pytorch AutoGrad"/>
+<img src="./images/autograd.png" width="400" alt="Pytorch AutoGrad "/>
