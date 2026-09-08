@@ -94,7 +94,7 @@ Student ID: **3124411026**
 ~ Chapter 12 (Regression — California Housing):
 - Kiến trúc pyramid (8→24→12→6→1), không activation ở output. RMSE chỉnh sửa từ 0.68 → 0.54 sau `StandardScaler`.
 
-### **Day 7:** Keras — Part II: Multilayer Perceptron (nền tảng)
+### **Day 7:** Keras — Part II: Multilayer Perceptron
 
 ~ Chapter 7 (First Neural Network — Pima Diabetes):
 - `compile→fit→evaluate` chỉ 3 dòng thay vì tự viết training loop.
