@@ -115,8 +115,8 @@ Student ID: **3124411026**
 - Model nhỏ hơn (60→30→1) thắng cả baseline lẫn model lớn hơn: **86.04% ± 4.00%**.
 
 ~ Chapter 11 (Regression — Boston Housing):
-- Wider (13→20→1, MSE=21.71) thắng Deeper (13→13→6→1, MSE=22.83) — sách thừa nhận khó đoán trước.
+- Wider (13→20→1, MSE=21.71) thắng Deeper (13→13→6→1, MSE=22.83).
 
 ~ Chapter 12 (3 cách xây model Keras):
-- **Sequential**, **Functional API** linh hoạt, làm được residual/skip connection, **Subclassing** (`__init__`+`call()`, giống PyTorch `nn.Module`).
-- LeNet-5 thường trên CIFAR-10: `val_loss` tăng dần (overfitting); bản có residual block: `val_loss` ổn định hơn.
+- **Sequential**, **Functional API** linh hoạt, làm được residual/skip connection, **Subclassing** (`__init__`+`call()`.
+- LeNet-5 thường trên CIFAR-10: `val_loss` tăng dần (overfitting).
